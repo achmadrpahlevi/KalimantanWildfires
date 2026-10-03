@@ -1,0 +1,186 @@
+{
+  "generated_utc": "2026-10-03T17:35:47Z",
+  "scene_utc": "2026-10-03T01:30:00Z",
+  "scene_local": "2026-10-03 08:30",
+  "tz_label": "WIB",
+  "tz_offset_hours": 7,
+  "stale_after_minutes": 90,
+  "age_minutes_at_build": 965.8,
+  "daylight": false,
+  "frozen": true,
+  "bounds": [
+    [
+      -5.0,
+      100.0
+    ],
+    [
+      8.0,
+      120.0
+    ]
+  ],
+  "view_bounds": [
+    [
+      -7.0,
+      100.0
+    ],
+    [
+      8.0,
+      128.0
+    ]
+  ],
+  "focus": [
+    0.5,
+    114.0
+  ],
+  "grid": {
+    "nx": 1000,
+    "ny": 650,
+    "res_deg": 0.02
+  },
+  "caption": "Indicative short-range smoke movement, daytime only. Not an official forecast \u2014 see BMKG and ASMC.",
+  "layers": {
+    "now": "smoke_now.png",
+    "obscured": "obscured.png",
+    "forecast": [
+      {
+        "minutes": 30,
+        "file": "fcst_030.png",
+        "valid_utc": "2026-10-03T02:00:00Z",
+        "valid_local": "09:00"
+      },
+      {
+        "minutes": 60,
+        "file": "fcst_060.png",
+        "valid_utc": "2026-10-03T02:30:00Z",
+        "valid_local": "09:30"
+      },
+      {
+        "minutes": 90,
+        "file": "fcst_090.png",
+        "valid_utc": "2026-10-03T03:00:00Z",
+        "valid_local": "10:00"
+      },
+      {
+        "minutes": 120,
+        "file": "fcst_120.png",
+        "valid_utc": "2026-10-03T03:30:00Z",
+        "valid_local": "10:30"
+      },
+      {
+        "minutes": 150,
+        "file": "fcst_150.png",
+        "valid_utc": "2026-10-03T04:00:00Z",
+        "valid_local": "11:00"
+      },
+      {
+        "minutes": 180,
+        "file": "fcst_180.png",
+        "valid_utc": "2026-10-03T04:30:00Z",
+        "valid_local": "11:30"
+      }
+    ]
+  },
+  "scene_stats": {
+    "water_fraction": 0.4085,
+    "valid_fraction": 0.9981,
+    "daylit_fraction": 1.0,
+    "cloud_fraction": 0.4189,
+    "obscured_fraction": 0.4208,
+    "clear_fraction": 0.5792,
+    "smoke_fraction": 0.1123,
+    "smoke_over_water_fraction": 0.4508,
+    "mean_solar_elevation": 44.8637
+  },
+  "quality": {
+    "pair": [
+      "20261003_0100",
+      "20261003_0130"
+    ],
+    "pair_gap_minutes": 30.0,
+    "clear_fraction": 0.579,
+    "flow_rejected": false,
+    "suppressed": false,
+    "reason": "",
+    "median_speed_ms": 2.81,
+    "p95_speed_ms": 8.7,
+    "bearing_from_deg": 190.0,
+    "u_ms": 0.11,
+    "v_ms": 0.62,
+    "sample_cells": 78630
+  },
+  "firms": {
+    "generated_utc": "2026-10-03T17:35:45Z",
+    "sources": [
+      "VIIRS_SNPP_NRT",
+      "VIIRS_NOAA20_NRT",
+      "MODIS_NRT"
+    ],
+    "day_range": 2,
+    "count": 243,
+    "min_frp_mw": 50.0,
+    "below_frp_floor": 19098,
+    "stale": false,
+    "note": ""
+  },
+  "cities": [
+    {
+      "name": "Pontianak",
+      "lat": -0.02,
+      "lon": 109.34
+    },
+    {
+      "name": "Palangkaraya",
+      "lat": -2.21,
+      "lon": 113.92
+    },
+    {
+      "name": "Banjarmasin",
+      "lat": -3.32,
+      "lon": 114.59
+    },
+    {
+      "name": "Samarinda",
+      "lat": -0.5,
+      "lon": 117.15
+    },
+    {
+      "name": "Balikpapan",
+      "lat": -1.24,
+      "lon": 116.85
+    },
+    {
+      "name": "Kuching",
+      "lat": 1.55,
+      "lon": 110.34
+    },
+    {
+      "name": "Singapore",
+      "lat": 1.35,
+      "lon": 103.82
+    },
+    {
+      "name": "Kuala Lumpur",
+      "lat": 3.14,
+      "lon": 101.69
+    },
+    {
+      "name": "Johor Bahru",
+      "lat": 1.49,
+      "lon": 103.74
+    },
+    {
+      "name": "Malacca",
+      "lat": 2.19,
+      "lon": 102.25
+    },
+    {
+      "name": "Pekanbaru",
+      "lat": 0.51,
+      "lon": 101.45
+    }
+  ],
+  "low_sun_caveat": "Sun below 50\u00b0: detections are less reliable than at midday. Areas flagged over Sumatra in particular should not be read as smoke without corroboration \u2014 they are more likely coastal or surface effects. Kalimantan is the calibrated part of this map.",
+  "water_caveat": "45% of detection is over shallow coastal water, where turbidity looks like thin smoke \u2014 treat it as unconfirmed.",
+  "smoke_over_water_pct": 45,
+  "frozen_reason": "sun too low over the domain (-73\u00b0); showing the last published scene, 03 Oct 08:30 WIB"
+}
